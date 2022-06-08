@@ -42,7 +42,7 @@ const Navbar = () => {
         {activeMenu && (
             <Menu theme=''>
                 <Menu.Item icon={<HomeOutlined />}>
-                    <Link to='/'>Acceuil</Link>
+                    <Link to='/'>Accueil</Link>
                 </Menu.Item>
                 <Menu.Item icon={<FundOutlined />}>
                     <Link to='/cryptocurrencies'>Cryptomonnaies</Link>
