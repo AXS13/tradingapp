@@ -49,14 +49,14 @@ app.post('/login', function(request, response) {
                 request.session.loggedin = true;
                 request.session.username = username;
                 // Redirect to home page
-                response.status(200).send("blabla");
+                response.status(200).send("réussi");
             } else {
-               response.status(403).send("message d'erreur random");
+               response.status(403).send("erreur");
             }
             response.end();
         });
     } else {
-        response.status(403).send("grosse salope");
+        response.status(403).send("erreur");
         response.end();
     }
 });

@@ -5,6 +5,8 @@ const Exchanges = () => {
   return (
     <div>
       <Login />
+      <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> 
+      <br /> <br /> <br /><br /> <br /><br /> <br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br />    
     </div>
   )
 }

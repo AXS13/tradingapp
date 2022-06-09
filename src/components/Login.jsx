@@ -12,7 +12,7 @@ function Login() {
           password: password,
       }).then((response) => {
           console.log(response);
-          window.location = "/";
+          window.location = "/calculs";
       }).catch((err) => {
         console.log(err);
         });
